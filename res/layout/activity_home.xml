@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    style="@style/TitleTheme"
+	    android:text="这是主页面"/>
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1px"
+	    android:background="#969696"/>
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="6dp"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:text="当山峰没有棱角的时候 , 当河水不再流 ...让我们红尘作伴活得潇潇洒洒 , 对酒当歌共享人间繁华"/>
+</LinearLayout>
